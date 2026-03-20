@@ -87,3 +87,54 @@ console.log(x+y);
 console.log(x-y);
 console.log(x*y);
 console.log(x/y);
+
+let yourAge = 18;
+if (yourAge>= 18){
+    console.log("Доступ разрешен");
+}else{
+    console.log("Доступ запрешен");
+}
+let temperature;
+if(temperature < 0){
+    console.log("Холодно")
+}
+else if(0<= temperature<= 20) {
+    console.log("Прохладно")
+}
+else{
+    console.log("Тепло");
+}
+// В JavaScript используются те же логические операторы, что и в C#:
+// ◦ && — И
+// ◦ ! — НЕ
+let isLoggedIn;
+let isAdmin;
+if (isAdmin && isLoggedIn == true){
+    console.log("Полный доступ")
+}
+else if(isAdmin && isLoggedIn == false){
+    console.log("Доступ запрещён")
+}
+else{
+    console.log("Ограниченный доступ");
+}
+let a = 10;
+b = "10";
+console.log(a == b);
+console.log(a === b);
+let monthNumber;
+switch(monthNumber ){
+    case 1: console.log("Январь");break;
+    case 2: console.log("Февраль");break;
+    case 3: console.log("Март");break;
+    case 4: console.log("Апрель");break;
+    case 5: console.log("Май");break;
+    case 6: console.log("Июнь");break;
+    case 7: console.log("Июль");break;
+    case 8: console.log("август");break;
+    case 9: console.log("Сентябрь");break;
+    case 10:; console.log("октябрь");break;
+    case 11: console.log("ноябрь");break;
+    case 12: console.log("Декабрь");break;
+    default: console.log("unrnown");
+}
