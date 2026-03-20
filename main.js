@@ -58,3 +58,12 @@ console.log(typeof newPrice);
 newPrice = "gfg";
 console.log(newPrice);
 console.log(typeof newPrice);
+let int2 = parseInt("42.5");//42
+let float = parseFloat("3.14");//3.14
+let bool4 = Boolean(""); //false)
+console.log("5" *"2");//10!!
+console.log(true + 1);//2
+console.log(undefined + 1);//NaN
+//Правило 1: Оператор + с строкой → конкатенация
+//Правило 2: Операторы -,*, / → преобразование к числ
+//console.log("5" + 3 + 2); // "532" (строка + число + число)
