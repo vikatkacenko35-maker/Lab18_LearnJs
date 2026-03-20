@@ -46,3 +46,15 @@ const pers = {imya: "bika", age: 18};
 pers.age = 50;
 pers.city = "Volgograd"; // yes
 pers = {age:67};//error
+console.log(typeof 45);
+//Это историческая ошибка JavaScript, которую нельзя исправить (сломается
+//много кода). null — это примитивный тип, но typeof ошибочно возвращает "object".
+//Как правильно проверить на null:
+let numx = null;
+console.log(numx === null);
+let newPrice = 18;
+console.log(newPrice);
+console.log(typeof newPrice);
+newPrice = "gfg";
+console.log(newPrice);
+console.log(typeof newPrice);
