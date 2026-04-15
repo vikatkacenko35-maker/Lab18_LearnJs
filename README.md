@@ -26,7 +26,7 @@
 ---
 
 ## Структура проекта
-Lab18_LearnJs_FIO/
+Lab18_LearnJs_Tkachenko/
 ├── README.md
 ├── index.html
 ├── main.js
